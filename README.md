@@ -7,3 +7,7 @@ This repository contains all of the notes taken by [Zongxi Li](https://github.co
 ## Table of contents
 * [Week 1](/Week_1)
   * [Day 1](/Week_1/Day_1)
+
+
+* [Week 4](/Week_4)
+  * [Day 2](/Week_1/d2)
