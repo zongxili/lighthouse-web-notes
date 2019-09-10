@@ -2,15 +2,14 @@
 
 ## JS in browser
 
-Js in ——NODE—— is different with JS in browser (although they are all JavaScript)
+Js in NODE is different with JS in browser (although they are all JavaScript)
 eg: "process" is bulit-in variable in NODE but not browser JS
 
 
 ##### examples
 JS came out to make the brwoser programable: enable interact with some actions like "click / move mouse eg"
 
-
-————————
+---
 document something here  --> a DOM object
 eg. get the H1 tag bu queryselecter 
 assign it to a const 
