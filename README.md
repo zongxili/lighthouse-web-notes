@@ -10,4 +10,4 @@ This repository contains all of the notes taken by [Zongxi Li](https://github.co
 
 
 * [Week 4](/Week_4)
-  * [Day 2](/Week_1/d2)
+  * [Day 2](/Week_4/d2)
