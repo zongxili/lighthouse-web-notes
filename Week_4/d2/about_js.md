@@ -42,6 +42,14 @@ Download JS:
 Its better look at the API than w3schools
 
 
+`
+this allow the string have multi lines
+`
+
+"But this can be only one line"
+
+a function: serialize --> get all the data together
+
 Challenge: 
 - Find the Selector
 - Delete dom.node in JS
