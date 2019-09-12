@@ -7,10 +7,16 @@ One thing notice, when we design the site, especially for the Mobile design, we 
 
 -->> the Finger could be much larger and hard to aim.
 
+
+### FLexbox 
+- the flex container is a BLOCK element
+  1. display: flex.
+  2. It never lets things overlap. 
+
 ### NEED TO KNOW:
 
 the amazon / wiki: different version in the same URLs, the brwoseer tackle this and make decision based on USER AGENT.
 
-- NEED TO KNOW THE USER AGENT.
+1. NEED TO KNOW THE USER AGENT.
 
-- adaptive design.
+2. Adaptive design. VS Responsive Design

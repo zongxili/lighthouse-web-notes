@@ -55,3 +55,6 @@ a function: serialize --> get all the data together
 Challenge: 
 - Find the Selector
 - Delete dom.node in JS
+
+## NEED TO KNOW: 
+1. !important
