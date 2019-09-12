@@ -12,5 +12,5 @@ This repository contains all of the notes taken by [Zongxi Li](https://github.co
 * [Week 4](/Week_4)
   * [Day 2](/Week_4/d2)
   * [Day 3](/Week_4/d3)
-  * [Day 4](/Week_4/d4)
+  * [Day 4 Notes](/Week_4/d4/responsive_design.md)
   * [Day 5](/Week_4/d5)
