@@ -10,8 +10,8 @@ One thing notice, when we design the site, especially for the Mobile design, we 
 
 ### FLexbox 
 - the flex container is a BLOCK element
-  1. display: flex.
-  2. It never lets things overlap. 
+  - display: flex.
+  - It never lets things overlap. 
 
 ### NEED TO KNOW:
 

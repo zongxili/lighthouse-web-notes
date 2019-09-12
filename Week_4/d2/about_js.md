@@ -58,3 +58,9 @@ Challenge:
 
 ## NEED TO KNOW: 
 1. !important
+2. Opacity VS display
+  1. Usage:
+    - Opacity: 0 (disappear) / 1 (appear);
+    - display: none / block;
+  - Opacity wont move the elements from the screen, oppontsently, the display will. Once it is set to another value, it squuze tge bottom space.
+3. 
