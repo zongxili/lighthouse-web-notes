@@ -13,6 +13,10 @@ One thing notice, when we design the site, especially for the Mobile design, we 
   - display: flex.
   - It never lets things overlap. 
 
+### Media Query
+- Breakpoint: the number in Pixel we pass in the media Query.
+  * Setting the max / min Width: ch, em, rem, pt(points), px: [an useful reading](https://www.w3schools.com/cssref/css_units.asp)
+
 ### NEED TO KNOW:
 
 the amazon / wiki: different version in the same URLs, the brwoseer tackle this and make decision based on USER AGENT.
