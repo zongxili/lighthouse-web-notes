@@ -52,9 +52,29 @@ the string have multi
 
 a function: serialize --> get all the data together
 
-Challenge: 
+Challenge:
 - Find the Selector
 - Delete dom.node in JS
+
+Some note for the project:
+I had this code in my Jquery file.
+It did do its job, but it stopped there for a moment.
+```js
+  $("#arrow-down-button").click(function() {
+    $(".new-tweet").animate({
+      height: 'toggle'
+    });
+  });
+```
+Still no clue about this. Nothing do with the height / display.
+
+Instead of implementing this, I used 
+```js
+$(".error-msg-section").toggle(400);
+```
+Inside the `toggle`, the value is for duration which can be "fast", "slow" and 400 is its default value.
+
+In addition, an alternative way to make this effect is to write CSS codes, and do "appendClass" for it. But my concern is this may apply a lot work.
 
 ## NEED TO KNOW: 
 1. !important

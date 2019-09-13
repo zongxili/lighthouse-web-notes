@@ -11,7 +11,7 @@ One thing notice, when we design the site, especially for the Mobile design, we 
 ### FLexbox 
 - the flex container is a BLOCK element
   - display: flex.
-  - It never lets things overlap. 
+  - It never lets things overlap.
 
 ### Media Query
 - Breakpoint: the number in Pixel we pass in the media Query.
