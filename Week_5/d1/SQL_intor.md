@@ -1,7 +1,9 @@
 # SQL Intro lecture
 store in memory in node:
-Start with the command of node
+Start with the command of node: read evaluate print loop
 Once we exit the Node, we lost all data: jst like in console.
+
+`irb`: enter to **Ruby**, enter `control + D` to exit
 
 TinyApp, Tweeter: data was not _PERSISTENT_
 
@@ -27,3 +29,18 @@ just TCP connections, no HTTP
 #### The Language
 - SQL: Structured Query Language;
   - All database speak the same language;
+  - But different DB Server have different interface commands
+
+
+`\`: means Postage commands
+`\l`: list all DB;
+
+`\dt`: show the names of all tables for Database connected to;
+
+One termial can connect to only ONE database;
+
+
+
+## NEED TO KNOW:
+- psql connect with remote database;
+- Can 2 machine connect to a DB at a same time?
