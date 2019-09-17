@@ -14,14 +14,30 @@ The command like "SELECT" can be **Case-Insensitive**, but the Value like "Paul"
 
 The max value of `VARCHAR` is `VARCHAR(255)`.
 
-`ON DELETE CASCADE`:
-"A foreign key with cascade delete means that if a record in the parent table is deleted, then the corresponding records in the child table will automatically be deleted. This is called a cascade delete in Oracle."
+##### DELETE CASCADE:
+`ON DELETE CASCADE`
+- "A foreign key with cascade delete means that if a record in the parent table is deleted, then the corresponding records in the child table will automatically be deleted. This is called a cascade delete in Oracle."
 
 
-Difference between `TEXT` and `VARCHAR(SIZE)`
+##### Difference between `TEXT` and `VARCHAR(SIZE)`
 - They all have the max length of 65535 characters
   - But `TEXT` can not be set;
 - `VARCHAR(SIZE)` can be part of **`INDEX`** but the another one can not.
+
+##### Having VS Where
+
+- "`WHERE` clause introduces a condition on individual rows; `HAVING` clause introduces a **condition on aggregations**, i.e. results of selection where a single result, such as **count, average, min, max, or sum**, has been produced from multiple rows. Your query calls for a second kind of condition (i.e. a condition on an aggregation) hence `HAVING` works correctly."
+
+- "As a rule of thumb, use `WHERE` before `GROUP BY` and HAVING after `GROUP BY`. It is a rather primitive rule, but it is useful in more than 90% of the cases."
+
+#### `FROM` sub select table
+```sql
+SELECT * FROM (
+  SELECT something_id
+  FROM someTable
+  WHERE something
+) as sub_table;
+```
 
 #### Some notable examples:
 Count people in a row:
