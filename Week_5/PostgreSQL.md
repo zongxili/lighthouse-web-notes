@@ -30,6 +30,17 @@ The max value of `VARCHAR` is `VARCHAR(255)`.
 
 - "As a rule of thumb, use `WHERE` before `GROUP BY` and HAVING after `GROUP BY`. It is a rather primitive rule, but it is useful in more than 90% of the cases."
 
+##### DATE data Types
+- "The format of a **TIMESTAMP** column is **YYYY-MM-DD HH:MM:SS** which is fixed at 19 characters. The TIMESTAMP value has a **range** from '1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07' UTC"
+- **TIME** range: "00:00:00.0000000 through 23:59:59.9999999 (00:00:00.000 through 23:59:59.999)"
+
+In General:
+- DATE - format YYYY-MM-DD.
+- DATETIME - format: YYYY-MM-DD HH:MI:SS.
+- TIMESTAMP - format: YYYY-MM-DD HH:MI:SS.
+- YEAR - format YYYY or YY.
+
+
 ##### `FROM` sub select table
 ```sql
 SELECT * FROM (
