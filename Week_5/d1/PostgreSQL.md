@@ -30,7 +30,7 @@ The max value of `VARCHAR` is `VARCHAR(255)`.
 
 - "As a rule of thumb, use `WHERE` before `GROUP BY` and HAVING after `GROUP BY`. It is a rather primitive rule, but it is useful in more than 90% of the cases."
 
-#### `FROM` sub select table
+##### `FROM` sub select table
 ```sql
 SELECT * FROM (
   SELECT something_id
@@ -38,6 +38,9 @@ SELECT * FROM (
   WHERE something
 ) as sub_table;
 ```
+
+##### `IN`
+
 
 #### Some notable examples:
 Count people in a row:
