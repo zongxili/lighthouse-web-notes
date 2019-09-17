@@ -16,8 +16,9 @@ This repository contains all of the notes taken by [Zongxi Li](https://github.co
   * [Day 5](/Week_4/d5)
 
 * [Week 5](/Week_5)
-  * [Day 1 SQL Intro Lecture](/Week_5/d1/SQL_intor.md) && [PostgreSQL](/Week_5/d1/PostgreSQL.md)
-  * [Day 3 Ajax in Web](/Week_5/d1/ajax.md)
+  * [PostgreSQL in general](/Week_5/PostgreSQL.md)
+  * [Day 1 SQL Intro Lecture](/Week_5/d1/SQL_intor.md)
+  * [Day 2 Design Database](/Week_5/d2/designing.md)
   * [Day 4 Responsive Design / Media Query / SASS](/Week_5/d1/responsive_design.md)
   * [Day 4](/Week_4/d5)
   * [Day 5](/Week_4/d5)
