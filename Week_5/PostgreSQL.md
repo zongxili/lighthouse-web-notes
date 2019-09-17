@@ -55,17 +55,31 @@ SELECT * FROM (
 
 #### Some notable examples:
 Count people in a row:
-```SELECT count(*) FROM row_name;```
+```sql
+SELECT count(*) FROM row_name;
+```
 
 if we want add a primary key named id and the id field is auto-incremented by one, we use the following statement:
-```id SERIAL PRIMARY KEY,```
+```sql
+id SERIAL PRIMARY KEY,
+```
 
 Check the **NULL** need to use the **IS**
-`WHERE column_name IS NULL;`
+```sql
+WHERE column_name IS NULL;
+```
 
 Use **AND** to add more conditions in `WHERE`
-`WHERE condition1 AND condition2 AND condition3 ...;`
+```sql
+WHERE condition1 AND condition2 AND condition3 ...;
+```
 
 Check if people don't have a Gmail as they emails, the **%** is used here.
-`WHERE email NOT LIKE '%@gmail.com'`
+```
+WHERE email NOT LIKE '%@gmail.com'
+```
 
+Setting Default values
+```sql
+City varchar(255) DEFAULT 'Sandnes'
+```
