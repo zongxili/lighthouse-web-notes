@@ -50,6 +50,23 @@ SELECT * FROM (
 ) as sub_table;
 ```
 
+
+##### aggregate function calls cannot be nested
+That is, we cannot have one Aggregate Function is **Wrapped by** another one, this is a common misake people may have.
+
+For example: 
+```sql
+SELECT count(sum(completed_at - started_at)) as average_total_duration
+```
+This is strictly prohibited by the Compiler.
+
+##### Get the TOP 1 from the list
+```sql
+LIMIT 1;
+```
+This allows any result --> numbers / strings / etc...
+
+
 ##### `IN`
 
 
@@ -82,4 +99,17 @@ WHERE email NOT LIKE '%@gmail.com'
 Setting Default values
 ```sql
 City varchar(255) DEFAULT 'Sandnes'
+```
+
+
+This is super tricky here: **AS total_duration** has to be added after the second `SELECT` (thats the tricky part) also after entire `FROM` statement (and this is SQL syntex).
+```sql
+SELECT avg (total_duration) AS average_total_duration
+FROM (
+  SELECT sum(completed_at - started_at) as total_duration
+  FROM assistance_requests
+  JOIN students ON students.id = assistance_requests.student_id
+  JOIN cohorts ON cohorts.id = cohort_id
+  GROUP BY cohorts.name
+) AS total_duration;
 ```
