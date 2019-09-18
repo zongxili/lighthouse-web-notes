@@ -52,7 +52,8 @@ SELECT * FROM (
 
 
 ##### aggregate function calls cannot be nested
-That is, we cannot have one Aggregate Function is **Wrapped by** another one, this is a common misake people may have.
+- That is, we cannot have one Aggregate Function is **Wrapped by** another one, this is a common misake people may have.
+- In this case, we may need to use a **nesting / sub** query.
 
 For example: 
 ```sql
@@ -68,7 +69,13 @@ This allows any result --> numbers / strings / etc...
 
 
 ##### `IN`
-
+- Sub queries case: Dealing results with multi data;
+- Hard code data: can have a statement like:
+```sql
+SELECT * 
+FROM Something
+WHERE type in (1, 2, 3);
+```
 
 #### Some notable examples:
 Count people in a row:
