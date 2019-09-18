@@ -14,6 +14,19 @@ The command like "SELECT" can be **Case-Insensitive**, but the Value like "Paul"
 
 The max value of `VARCHAR` is `VARCHAR(255)`.
 
+## The logical processing of a query
+1. FROM
+2. ON
+3. JOIN
+4. WHERE
+5. GROUP BY
+6. WITH CUBE or WITH ROLLUP
+7. HAVING
+8. SELECT
+9. DISTINCT
+10. ORDER BY
+11. TOP
+
 ## Normalization
 - reduce redundences
 - For example, if we have 2 tables having some same ids in them;
