@@ -14,12 +14,16 @@ The command like "SELECT" can be **Case-Insensitive**, but the Value like "Paul"
 
 The max value of `VARCHAR` is `VARCHAR(255)`.
 
-##### DELETE CASCADE:
-`ON DELETE CASCADE`
+## Normalization
+- reduce redundences
+- For example, if we have 2 tables having some same ids in them;
+
+## DELETE CASCADE:
+```ON DELETE CASCADE```
 - "A foreign key with cascade delete means that if a record in the parent table is deleted, then the corresponding records in the child table will automatically be deleted. This is called a cascade delete in Oracle."
 
 
-##### Difference between `TEXT` and `VARCHAR(SIZE)`
+## Difference between `TEXT` and `VARCHAR(SIZE)`
 - They all have the max length of 65535 characters
   - But `TEXT` can not be set;
 - `VARCHAR(SIZE)` can be part of **`INDEX`** but the another one can not.
