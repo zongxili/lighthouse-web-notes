@@ -124,3 +124,9 @@ FROM (
   GROUP BY cohorts.name
 ) AS total_duration;
 ```
+
+When **DROP a table**, we need to check:
+- If we have multiple tables in our database, CASCADE will make sure that all records from other tables that depend on this table will also be deleted.
+```sql
+DROP TABLE IF EXISTS users CASCADE;
+```

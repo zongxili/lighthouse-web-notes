@@ -33,9 +33,16 @@
   - One imp point here: **dont have the access to db**
   - look at the code
 
+
+## SQL Injection
+- SQL injection is a code injection technique that might **destroy** your database.
+- SQL injection is one of the most common web hacking techniques.
+- SQL injection is the placement of malicious code in SQL statements, via web page input.
+
 #### NEED TO KNOW
 - [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 - NPM init
 - pg
 - express route
 - debugger: this needs to be treat seriously!!
+- [Postman](https://www.getpostman.com)
