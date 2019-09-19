@@ -42,7 +42,7 @@
 #### NEED TO KNOW
 - [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 - NPM init
-- pg
+- pg: this turns out is the node-postgres
 - express route
 - debugger: this needs to be treat seriously!!
 - [Postman](https://www.getpostman.com)
