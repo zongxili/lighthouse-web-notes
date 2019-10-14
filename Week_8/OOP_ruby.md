@@ -113,6 +113,7 @@
     attr_accessor :name, :height, :weight
     ```
     - put this at the top of the class
+    - this includes both `attr_reader` and `attr_writer`
 
   - Using `self`
     -  It turns out that instead of calling the name=, height= and weight= setter methods, what we did was create three new local variables called name, height and weight. That's definitely not what we wanted to do.
@@ -126,3 +127,37 @@
       self.weight = w
     end
     ```
+
+### Class Variables
+  - variables for an entire class
+  - using two @ symbols like so: **@@**
+
+### Constants
+  - define a constant by using an upper case letter;
+  - most Rubyists will make the entire variable uppercase.
+  - that will never change for any reason
+  - It is possible to reassign a new value to constants but Ruby will _throw a warning_.
+
+### The to_s Method
+  - By default, the to_s method returns the name of the object's class and an encoding of the object id
+
+  ```ruby
+  puts object_name
+  # and this is equivalent to the one below
+  puts sparky.to_s
+  ```
+  - puts method automatically calls to_s on its argument if we `puts` an object.
+  - `p` doesnt call `to_s`, but call `inspect`
+
+  ```ruby
+  # the following are equivalent
+  puts sparky.inspect
+  p sparky
+  ```
+
+### self
+  - inside of an instance method, references the instance (object) that called the method - the **calling object**. Therefore, self.weight= is the same as sparky.weight=.
+    - this means the object assigned to `sparky = GoodDog.new`
+
+  - outside of an instance method, references the class and can be used to define class methods. Therefore, def self.name=(n) is the same as def GoodDog.name=(n).
+    - this means its the class GoodDog itself
